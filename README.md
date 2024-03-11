@@ -13,6 +13,7 @@ In their existing market, the sales team has classified all customers into 4 seg
 You are required to help the manager to predict the right group of the new customers.
 
 ## Neural Network Model
+![Screenshot 2024-03-11 124954](https://github.com/23008112/nn-classification/assets/138972470/4e2cb0b1-7452-4bc3-8b81-c124a0233b63)
 
 Include the neural network model diagram.
 
@@ -22,14 +23,27 @@ Include the neural network model diagram.
 Write your own steps
 
 ### STEP 2:
+Load and read the dataset
 
 ### STEP 3:
+Perform pre processinga and clean the dataset
 
+### STEP 4:
+Normalize the values and split the values for x and y.
+
+### STEP 5:
+Build the deep learning model with appropriate layers and depth.
+
+### STEP 6:
+Plot a grah for Training Loss, Validation Loss Vs Iteration &nfor Accuracy, Validation Accuracy Vs Iteration.
+
+### STEP 7:
+Save the model using pickle.
 
 ## PROGRAM
 
-### Name: 
-### Register Number:
+### Name: R. SANJANA
+### Register Number: 212223240148
 
 ```
 import pandas as pd
@@ -233,25 +247,26 @@ print(le.inverse_transform(x_single_prediction))
 ```
 
 ## Dataset Information
+![Screenshot 2024-03-11 125616](https://github.com/23008112/nn-classification/assets/138972470/21af3197-b283-40c0-904a-e363900a7fa2)
 
 Include screenshot of the dataset
 
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
-Include your plot here
+![Screenshot 2024-03-11 125825](https://github.com/23008112/nn-classification/assets/138972470/ede6f04a-df11-47dd-bd43-b93a30a8e83b)
 
 ### Classification Report
+![Screenshot 2024-03-11 130721](https://github.com/23008112/nn-classification/assets/138972470/d842168c-f882-4faf-ba96-3b88517b9a98)
 
-Include Classification Report here
 
 ### Confusion Matrix
-
-Include confusion matrix here
+![Screenshot 2024-03-11 130729](https://github.com/23008112/nn-classification/assets/138972470/f0384c1c-9561-4ec1-847f-a529c79ddc63)
 
 
 ### New Sample Data Prediction
+![Screenshot 2024-03-11 130745](https://github.com/23008112/nn-classification/assets/138972470/d7d89b92-e23f-45cc-9def-f25afaa34523)
 
 Include your sample input and output here
 
 ## RESULT
-Include your result here
+A neural network classification model is developed for the given dataset
