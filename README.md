@@ -247,24 +247,24 @@ print(le.inverse_transform(x_single_prediction))
 ```
 
 ## Dataset Information
-![Screenshot 2024-03-11 125616](https://github.com/23008112/nn-classification/assets/138972470/21af3197-b283-40c0-904a-e363900a7fa2)
+![Screenshot 2024-03-15 120802](https://github.com/23008112/nn-classification/assets/138972470/198ae4fe-52c9-480d-ac83-cf479a2cfb68)
 
-Include screenshot of the dataset
 
 ## OUTPUT
 ### Training Loss, Validation Loss Vs Iteration Plot
-![Screenshot 2024-03-11 125825](https://github.com/23008112/nn-classification/assets/138972470/ede6f04a-df11-47dd-bd43-b93a30a8e83b)
+![Screenshot 2024-03-15 120944](https://github.com/23008112/nn-classification/assets/138972470/ce87873a-b6ce-4b00-8065-45f8610a895d)
 
 ### Classification Report
-![Screenshot 2024-03-11 130721](https://github.com/23008112/nn-classification/assets/138972470/d842168c-f882-4faf-ba96-3b88517b9a98)
+![Screenshot 2024-03-15 121051](https://github.com/23008112/nn-classification/assets/138972470/23284387-a7c3-42d8-8dde-679336f1c8a0)
 
 
 ### Confusion Matrix
-![Screenshot 2024-03-11 130729](https://github.com/23008112/nn-classification/assets/138972470/f0384c1c-9561-4ec1-847f-a529c79ddc63)
+![Screenshot 2024-03-15 121123](https://github.com/23008112/nn-classification/assets/138972470/b209ca12-3559-4c0a-a0e8-0ead386279aa)
+
 
 
 ### New Sample Data Prediction
-![Screenshot 2024-03-11 130745](https://github.com/23008112/nn-classification/assets/138972470/d7d89b92-e23f-45cc-9def-f25afaa34523)
+![Screenshot 2024-03-15 121205](https://github.com/23008112/nn-classification/assets/138972470/8b8d8e6d-8036-4382-9718-ea3941f731f4)
 
 Include your sample input and output here
 
