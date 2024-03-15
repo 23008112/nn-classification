@@ -75,27 +75,27 @@ customer_df.shape
 
 customer_df.isnull().sum()
 
-customer_df_cleaned = customer_df.dropna(axis=0)
+clean = customer_df.dropna(axis=0)
 
-customer_df_cleaned.isnull().sum()
+clean.isnull().sum()
 
-customer_df_cleaned.shape
+clean.shape
 
-customer_df_cleaned.dtypes
+clean.dtypes
 
-customer_df_cleaned['Gender'].unique()
+clean['Gender'].unique()
 
-customer_df_cleaned['Ever_Married'].unique()
+clean['Ever_Married'].unique()
 
-customer_df_cleaned['Graduated'].unique()
+clean['Graduated'].unique()
 
-customer_df_cleaned['Profession'].unique()
+clean['Profession'].unique()
 
-customer_df_cleaned['Spending_Score'].unique()
+clean['Spending_Score'].unique()
 
-customer_df_cleaned['Var_1'].unique()
+clean['Var_1'].unique()
 
-customer_df_cleaned['Segmentation'].unique()
+clean['Segmentation'].unique()
 
 categories_list=[['Male', 'Female'],
            ['No', 'Yes'],
@@ -106,7 +106,7 @@ categories_list=[['Male', 'Female'],
            ]
 enc = OrdinalEncoder(categories=categories_list)
 
-customers_1 = customer_df_cleaned.copy()
+customers_1 = clean.copy()
 
 customers_1[['Gender',
              'Ever_Married',
